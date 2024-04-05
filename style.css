@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header ul{
+    padding: 24px 0;
+    justify-content: right;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    background-color: #FFB800; 
+}
+header ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.hero{
+    padding: 24px 0;
+    max-width: 1512px;
+    margin: auto;
+  background-color: #FFB800;
+
+}
+h1{
+padding: 117px 111px;
+font-family:'Claster Oleander';
+font-style: normal;
+font-weight: 400;
+font-size: 296px;
+line-height: 72%;
+letter-spacing: -0.05em;
+}
+h2{
+width: 850px;
+height: 103px;
+padding: 40px 111px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+}
+h3{
+padding: 117px 111px;
+font-family:'Claster Oleander';
+text-transform: uppercase;
+font-style: normal;
+font-weight:400;
+font-size: 133px;
+line-height: 80%;
+
+}
+h4{
+width: 740px;
+padding: 117px 111px;
+font-family:'Claster Oleander';
+text-transform: uppercase;
+font-style: normal;
+font-weight:400;
+font-size: 123px;
+line-height: 80%;
+
+}
+h5{
+width: 740px;
+padding: 117px 111px;
+font-family:'Claster Oleander';
+text-transform: uppercase;
+font-style: normal;
+font-weight:400;
+font-size: 123px;
+line-height: 80%;
+
+}
+h6{
+width: 740px;
+padding: 40px 111px;
+font-family:'Claster Oleander';
+text-transform: uppercase;
+font-style: normal;
+font-weight:400;
+font-size: 123px;
+line-height: 80%;
+
+}
+
+p{
+padding: 80px 111px;
+font-family: 'Alumni Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 108%;
+
+}
+
+.page1{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2;
+
+}
+.page2{
+    background-color: #FFB800;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+   padding-top: 600px;
+}
+.end{
+    margin: 0;
+    padding: 0;
+    background-color: #FFB800;
+
+}
+footer{
+margin: 0;
+padding: 40px 111px;
+background-color: #FFB800;
+color: #ffffff;
+font-family:'Claster Oleander';
+text-transform: uppercase;
+font-style: normal;
+font-weight:400;
+font-size: 110px;
+line-height: 80%;
+
+}
